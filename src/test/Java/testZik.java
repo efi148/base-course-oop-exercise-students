@@ -1,6 +1,4 @@
-import AerialVehicles.FighterJets.F16;
-import AerialVehicles.UAVs.Haron.Shoval;
-import AerialVehicles.UAVs.Hermes.Zik;
+import AerialVehicles.UAVs.Hermes.*;
 import Entities.Coordinates;
 import Missions.AttackMission;
 import Missions.BdaMission;

@@ -1,9 +1,4 @@
-import AerialVehicles.FighterJets.F15;
 import AerialVehicles.FighterJets.F16;
-import AerialVehicles.UAVs.Haron.Eitan;
-import AerialVehicles.UAVs.Haron.Shoval;
-import AerialVehicles.UAVs.Hermes.Kochav;
-import AerialVehicles.UAVs.Hermes.Zik;
 import Entities.Coordinates;
 import Missions.AttackMission;
 import Missions.BdaMission;
@@ -18,7 +13,7 @@ public class testF16 {
     AttackMission attackMission = new AttackMission("suspect house", coordinatesToAttack);
     BdaMission bdaMission = new BdaMission("suspect house", coordinatesToAttack);
     IntelligenceMission intelligenceMission = new IntelligenceMission("Deir al Balah", coordinatesToAttack);
-    private F16 f16 = new F16("thermal", 2, "Spice250", "Tuli", attackMission, 5, true);
+    private F16 f16 = new F16("thermal", 2, "Spice250","Tuli", attackMission, 5, true);
 
     @Test
     public void testAttack(){

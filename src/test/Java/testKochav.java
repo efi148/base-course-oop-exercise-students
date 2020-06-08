@@ -1,5 +1,4 @@
-import AerialVehicles.UAVs.Haron.Shoval;
-import AerialVehicles.UAVs.Hermes.Kochav;
+import AerialVehicles.UAVs.Hermes.*;
 import Entities.Coordinates;
 import Missions.AttackMission;
 import Missions.BdaMission;
